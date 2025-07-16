@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: file-converter-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        value: 7847488432:AAGqQKB-fQ2znpBZEVC_Byt2suxEuTW7hM4
